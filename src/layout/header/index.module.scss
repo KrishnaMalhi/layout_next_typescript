@@ -1,0 +1,38 @@
+@import "@app/styles/globals.scss";
+
+.container {
+    width: 100%;
+    padding: 1rem 2rem;
+    // background-color: #E2E8F0;
+    // align-items: center;
+    transition: ease-in-out 0.5s;
+
+    &.scroll-action {
+        background-color: #E2E8F0;
+        position: fixed;
+        // height: 4rem;
+        // opacity: 0.8;
+        backdrop-filter: blur(0.5rem);
+        -webkit-backdrop-filter: blur(0.5rem);
+        transition: ease-in-out 0.5s;
+        // border-top: 0.3rem solid;
+        // border-bottom: 0.3rem solid;
+        // border-color: #E2E8F0;
+        // border-width: 100%;
+    }
+
+    .nav-menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+
+        button {
+            margin: 0 1rem;
+        }
+    }
+
+    .toggleBtn {
+        width: 2rem;
+    }
+}

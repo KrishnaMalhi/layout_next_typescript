@@ -1,0 +1,13 @@
+@import "@app/styles/globals.scss";
+
+.container {
+    // width: fit-content;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    li {
+        list-style: none;
+        color: $text_color_1 // margin: 0 0.3rem;
+    }
+}

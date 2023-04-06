@@ -1,0 +1,15 @@
+.container {
+    // color: #E2E8F0;
+    // width: 100%;
+    cursor: pointer;
+
+    .line_1,
+    .line_2,
+    .line_3 {
+        margin: 0.5rem 0;
+        border-top: 0.1rem solid;
+        border-width: 0.3rem;
+        border-color: #4299E1;
+        // height: 1rem;
+    }
+}
